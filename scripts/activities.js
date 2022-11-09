@@ -226,5 +226,4 @@ function resetBtnClicked() {
     msgForTicket.innerHTML = "";
 
     const ticketnum = Number(document.getElementById("numTickets").value = 0);
-
 }
