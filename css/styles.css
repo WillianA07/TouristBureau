@@ -1,0 +1,12 @@
+#movepiccenter {
+    display: flex;
+    justify-content: center;
+}
+
+.divwithbgcolor {
+    background-color: #198354;
+}
+
+.textcolortowhite {
+    color: white;
+}
