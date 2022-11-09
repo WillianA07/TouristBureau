@@ -108,7 +108,6 @@ window.onload = function() {
     document.getElementById("activitiesDropdown").onchange = displayActivitiesDetails;
     document.getElementById("submitBtn").onclick = ticketstotal;
     document.getElementById("resetBtn").onclick = resetBtnClicked;
-
     addOptionsToCategoryDropdown();
 }
 
@@ -224,6 +223,5 @@ function ticketstotal() {
 function resetBtnClicked() {
     const msgForTicket = document.getElementById("message");
     msgForTicket.innerHTML = "";
-
     const ticketnum = Number(document.getElementById("numTickets").value = 0);
 }
